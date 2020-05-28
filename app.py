@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May 27 20:22:37 2020
 
-@author: Naveen
-"""
 
 #Importing the Libraries
 import numpy as np
@@ -19,8 +14,6 @@ from newspaper import Article
 import urllib
 
 ## set working directory
-os.chdir('E:\Self_projects\Fake_news_classifiers')
-os.getcwd()
 #Loading Flask and assigning the model variable
 app = Flask(__name__)
 CORS(app)
